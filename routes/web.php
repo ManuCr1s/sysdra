@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 }); */
 Route::get('/', function () {
-    return view('authtenticate.login');
+    return view('dashboard.dashboard');
 }); 
 
 
