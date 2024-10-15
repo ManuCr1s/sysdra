@@ -21,19 +21,19 @@
                     <li class="nav-item">
                     <a class="nav-link" href="#">
                         <span class="sidebar-mini"> MP </span>
-                        <span class="sidebar-normal"> My Profile </span>
+                        <span class="sidebar-normal"> Mi Perfil </span>
                     </a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">
                         <span class="sidebar-mini"> EP </span>
-                        <span class="sidebar-normal"> Edit Profile </span>
+                        <span class="sidebar-normal"> Editar Perfil </span>
                     </a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <span class="sidebar-mini"> S </span>
-                        <span class="sidebar-normal"> Settings </span>
+                        <span class="sidebar-mini"> H </span>
+                        <span class="sidebar-normal"> Herramientas </span>
                     </a>
                     </li>
                 </ul>
@@ -50,7 +50,7 @@
                 <li class="nav-item ">
                     <a class="nav-link" data-toggle="collapse" href="#pagesExamples">
                     <i class="material-icons">image</i>
-                    <p> Pages
+                    <p> Productores
                         <b class="caret"></b>
                     </p>
                     </a>
@@ -68,7 +68,7 @@
                 <li class="nav-item ">
                     <a class="nav-link" data-toggle="collapse" href="#2">
                     <i class="material-icons">apps</i>
-                    <p> Componetes
+                    <p> Llamas
                         <b class="caret"></b>
                     </p>
                     </a>
@@ -86,7 +86,7 @@
                 <li class="nav-item ">
                     <a class="nav-link" data-toggle="collapse" href="#3">
                     <i class="material-icons">content_paste</i>
-                    <p> forms
+                    <p> Pedigri
                         <b class="caret"></b>
                     </p>
                     </a>
@@ -104,7 +104,7 @@
                 <li class="nav-item ">
                     <a class="nav-link" data-toggle="collapse" href="#4">
                     <i class="material-icons">grid_on</i>
-                    <p> Tables
+                    <p> Reportes
                         <b class="caret"></b>
                     </p>
                     </a>
@@ -118,42 +118,13 @@
                         </li>
                     </ul>
                     </div>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" data-toggle="collapse" href="#5">
-                    <i class="material-icons">place</i>
-                    <p> Maps
-                        <b class="caret"></b>
-                    </p>
-                    </a>
-                    <div class="collapse" id="5">
-                    <ul class="nav">
-                        <li class="nav-item ">
-                        <a class="nav-link" href="../examples/pages/pricing.html">
-                            <span class="sidebar-mini"> P </span>
-                            <span class="sidebar-normal"> Pricing </span>
-                        </a>
-                        </li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="../examples/widgets.html">
-                    <i class="material-icons">widgets</i>
-                    <p> Widgets </p>
-                    </a>
-                </li>
+                </li>        
                 <li class="nav-item ">
                     <a class="nav-link" href="../examples/charts.html">
                     <i class="material-icons">timeline</i>
-                    <p> Charts </p>
+                    <p> Graficas </p>
                     </a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="../examples/calendar.html">
-                    <i class="material-icons">date_range</i>
-                    <p> Calendar </p>
-                    </a>
-                </li>
+          
             </ul>
       </div>

@@ -11,10 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('password_reset_tokens', function (Blueprint $table) {
-            $table->string('email')->primary();
-            $table->string('token');
-            $table->dateTime('created_at', $precision = 3);
+        Schema::table('users', function (Blueprint $table) {
+            $table->foreign('rol_id')->references('id_rol')->on('roles');
         });
     }
 
@@ -23,6 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('password_reset_tokens');
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropForeign(['rol_id']);
+        });
     }
 };

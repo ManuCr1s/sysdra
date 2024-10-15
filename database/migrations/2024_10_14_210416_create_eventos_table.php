@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('eventos', function (Blueprint $table) {
             $table->string('id_evento', 20)->primary();
             $table->string('id_usuario', 20);
-            $table->foreign('id_usuario')->references('id_usuario')->on('usuarios');
+            $table->foreign('id_usuario')->references('id_usuario')->on('users');
             $table->string('id_llama', 20);
             $table->foreign('id_llama')->references('id_llama')->on('llamas');
             $table->string('id_criador', 20);
