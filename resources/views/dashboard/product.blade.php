@@ -14,6 +14,7 @@
             <div class="content">
                 <div class="content">
                     <div class="container-fluid">
+                        <x-tables.productores/>
                     </div>
                 </div>
             </div>
@@ -236,4 +237,12 @@
         md.initVectorMap();
         });
     </script>
+    <script src="{{asset('assets/js/datatables/jquery.datatables.js')}}"></script>
+    <script src="{{asset('assets/js/datatables/dataTables.buttons.min.js')}}"></script>
+    <script src="{{asset('assets/js/datatables/buttons.html5.min.js')}}"></script>
+    <script src="{{asset('assets/js/datatables/pdfmake.min.js')}}"></script>
+    <script src="{{asset('assets/js/datatables/vfs_fonts.js')}}"></script>
+    <script src="{{asset('assets/js/datatables/jszip.min.js')}}"></script>
+    <script type="module" src="{{asset('assets/js/scripts/functions.js')}}" type="text/javascript"></script>
+    <script type="module" src="{{asset('assets/js/scripts/product.js')}}" type="text/javascript"></script>
 @endsection

@@ -15,6 +15,9 @@ use App\Http\Controllers\ProductController;
 | be assigned to the "web" middleware group. Make something great!
 |s
 */
+Route::controller(ProductController::class)->group(function(){
+    Route::get('/product','store')->name('productData');
+});
 Route::get('/', [UserController::class, 'index'])->name('loginView');   
 Route::get('/login', [UserController::class, 'index'])->name('loginView');
 Route::middleware(['guest'])->group(function(){

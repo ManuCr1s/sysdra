@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Productor;
 
 class ProductController extends Controller
 {
@@ -25,9 +26,11 @@ class ProductController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store()
     {
-        //
+        $productor = new Productor;
+        $productor = Productor::select('nombres','apellido_paterno','apellido_materno','dni','nombre_ganaderia')->get();
+        return datatables()->of($productor)->toJson();
     }
 
     /**
