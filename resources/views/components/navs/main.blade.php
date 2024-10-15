@@ -42,7 +42,7 @@
             </div>
             <ul class="nav">
                 <li class="nav-item active ">
-                    <a class="nav-link" href="../examples/dashboard.html">
+                    <a class="nav-link" href="{{route('mainView')}}">
                     <i class="material-icons">dashboard</i>
                     <p> Dashboard </p>
                     </a>
@@ -57,9 +57,9 @@
                     <div class="collapse" id="pagesExamples">
                     <ul class="nav">
                         <li class="nav-item ">
-                        <a class="nav-link" href="../examples/pages/pricing.html">
+                        <a class="nav-link" href="{{route('productView')}}">
                             <span class="sidebar-mini"> P </span>
-                            <span class="sidebar-normal"> Pricing </span>
+                            <span class="sidebar-normal"> Productores </span>
                         </a>
                         </li>
                     </ul>
@@ -75,9 +75,9 @@
                     <div class="collapse" id="2">
                     <ul class="nav">
                         <li class="nav-item ">
-                        <a class="nav-link" href="../examples/pages/pricing.html">
-                            <span class="sidebar-mini"> P </span>
-                            <span class="sidebar-normal"> Pricing </span>
+                        <a class="nav-link" href="{{route('llamaView')}}">
+                            <span class="sidebar-mini"> LL </span>
+                            <span class="sidebar-normal"> Llamas </span>
                         </a>
                         </li>
                     </ul>
@@ -93,9 +93,9 @@
                     <div class="collapse" id="3">
                     <ul class="nav">
                         <li class="nav-item ">
-                        <a class="nav-link" href="../examples/pages/pricing.html">
+                        <a class="nav-link" href="{{route('pedigriView')}}">
                             <span class="sidebar-mini"> P </span>
-                            <span class="sidebar-normal"> Pricing </span>
+                            <span class="sidebar-normal"> Pedigri </span>
                         </a>
                         </li>
                     </ul>
@@ -111,16 +111,16 @@
                     <div class="collapse" id="4">
                     <ul class="nav">
                         <li class="nav-item ">
-                        <a class="nav-link" href="../examples/pages/pricing.html">
-                            <span class="sidebar-mini"> P </span>
-                            <span class="sidebar-normal"> Pricing </span>
+                        <a class="nav-link" href="{{route('reportView')}}">
+                            <span class="sidebar-mini"> R </span>
+                            <span class="sidebar-normal"> Reportes </span>
                         </a>
                         </li>
                     </ul>
                     </div>
                 </li>        
                 <li class="nav-item ">
-                    <a class="nav-link" href="../examples/charts.html">
+                    <a class="nav-link" href="{{route('graficaView')}}">
                     <i class="material-icons">timeline</i>
                     <p> Graficas </p>
                     </a>
