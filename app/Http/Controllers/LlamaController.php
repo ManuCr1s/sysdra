@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Llama;
 
 class LlamaController extends Controller
 {
@@ -19,7 +20,7 @@ class LlamaController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -27,7 +28,9 @@ class LlamaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $llama = new Llama;
+        $llama = Llama::select('id_llama','nombre','fecha_nacimiento','peso_vivo','peso_nacimiento','peso_destete')->get();
+        return datatables()->of($llama)->toJson();
     }
 
     /**
