@@ -5,44 +5,32 @@
                     <div class="card-icon">
                         <i class="material-icons">assignment</i>
                     </div>
-                    <h4 class="card-title">Simple Table</h4>
+                    <h4 class="card-title">Productores Registrados</h4>
+                    <div class="row">
+                        <div class="col-12  d-flex justify-content-end">
+                            <button class="btn btn-primary" rel="tooltip"  data-toggle="modal" data-target="#exampleModal">Insertar Nuevo Productor<div class="ripple-container"></div></button>
+                            <!-- <x-modals.nuevop/> -->
+                        </div>
+                    </div>
             </div>
             <div class="card-body">
-                     <div class="table-responsive">
+                     
                         <table class="table" id="product">
                             <thead>
                                 <tr>
-                               <!--  <th class="text-center">#</th> -->
-                                <th>Nombres</th>
-                                <th>Apellido Paterno</th>
-                                <th>Apellido Materno</th>
-                                <th>Dni</th>
-                                <th class="text-right">Nombre Agencia</th>
-                                <th class="text-right">Actions</th>
+                                    <th>Nombres</th>
+                                    <th>Apellido Paterno</th>
+                                    <th>Apellido Materno</th>
+                                    <th>Dni</th>
+                                    <th>Nombre Agencia</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
-                               <!--  <tr>
-                                        <td class="text-center">5</td>
-                                        <td>Paul Dickens</td>
-                                        <td>Communication</td>
-                                        <td>2015</td>
-                                        <td class="text-right">&euro; 69,201</td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" class="btn btn-info">
-                                            <i class="material-icons">person</i>
-                                            </button>
-                                            <button type="button" rel="tooltip" class="btn btn-success">
-                                            <i class="material-icons">edit</i>
-                                            </button>
-                                            <button type="button" rel="tooltip" class="btn btn-danger">
-                                            <i class="material-icons">close</i>
-                                            </button>
-                                        </td>
-                                </tr> -->
                             </tbody>
                         </table>
-                    </div>
+                   
             </div>
     </div>
 </div>
+<x-modals.productor/>
